@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>cryptocurrencydata</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div>
+      <h1 class="head">Cryptocurrency Tracker</h1>
+    </div>
+    <div>
+      <h2 class="head">Search a Currency</h2>
+    </div>
+    <div>
+      <input type="text" id="searchbar" placeholder="Search"  onkeyup="searchdata()"/>
+      <button id="search-btn" placeholder="search">search</button>
+      <button id="change-order">Change-order</button>
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th >Sr_No</th>
+          <th>Cryptocurrency</th>
+          <th>symbol</th>
+          <th>current_price</th>
+          <th>Price_volume</th>
+          <th>Price_percentage(24h)</th>
+          <th>Market_cap(24h)</th>
+        </tr>
+      </thead>
+      <tbody id="cryptodata">
+        </tbody>
+    <!-- <div class="tablefield">
+      <div class="tabledata">
+        <div>Cryptocurrency</div>
+        <div>current_price</div>
+        <div>coin_volume</div>
+        <div>symbol</div>
+        <div>coin_percentage(24h)</div>
+        <div>Market_cap(24h)</div>
+      </div>
+    </div> -->
+
+    <script src="script.js"></script>
+  </body>
+</html>

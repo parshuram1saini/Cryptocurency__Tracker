@@ -1,0 +1,82 @@
+body {
+  text-align: center;
+  background-color: #222;
+
+}
+.head{
+  color: antiquewhite;
+  font-size: 2rem;
+}
+#search-btn { 
+  cursor: pointer;
+  border-width: 3wh;
+  border: 2px solid salmon;
+  background-color: rgb(27, 228, 70);
+  color: black;
+  font-size: large;
+  border-radius: 5%;
+}
+
+#searchbar {
+  background-color: rgb(100, 59, 138);
+  background-image: linear-gradient(to bottom right, skyblue, violet);
+  color: black;
+  font-weight: bolder;
+  width: 15%;
+  height: 30px;
+  border-radius: 5%;
+}
+#change-order {
+  margin-left: 8%;
+  background-color: rgb(202, 177, 37);
+  color: black;
+}
+#search-order:hover {
+  cursor: pointer;
+  background-color: rgb(194, 193, 189);
+  color: rgb(224, 13, 13);
+}
+
+table {
+  border-collapse: collapse;
+  border: 1px solid black;
+  margin: 1% 15%;
+}
+
+th {
+  border: 1px solid black;
+  padding: 1rem;
+  background-image: linear-gradient(
+    to right,
+    rgb(72, 255, 0),
+    rgb(233, 140, 18),
+    yellow
+  );
+  position: sticky;
+}
+#cryptodata{
+  /* background-color: rgb(165, 128, 80) ; */
+  background-image: linear-gradient(
+    to right,
+    rgb(111, 158, 154),
+    rgb(46, 211, 183),
+    rgb(123, 178, 180)
+  );
+}
+
+td {
+  padding: 1rem;
+}
+tr:hover{
+  background-image: linear-gradient(violet,skyblue);
+}
+img{
+  height: 3vh;
+  width: 3vw;
+  float: left;
+  padding: 2%;
+  text-align: left;
+}
+.name{
+  display: flex;
+}
